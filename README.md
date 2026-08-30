@@ -25,6 +25,9 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
+- Exercício 1: Estruturas básicas (`printf`, `scanf`)  
+  🔹 Desenvolvido individualmente
+
 ## ♯ Objetivo: <a id="objetivo"></a>
 
 Este repositório tem como objetivo guardar minhas práticas de conceitos fundamentais de programação em **C**, documentando meu progresso acadêmico ao longo da graduação.
