@@ -16,10 +16,8 @@
 
 ## ♯ Introdução: <a id="introducao"></a>
 
-Este repositório marca o início da minha trajetória em programação desde Agosto de 2026.
-
+Este repositório marca o início da minha trajetória em programação desde Agosto de 2026. <br>
 Ele reúne exercícios acadêmicos em **C** desenvolvidos como parte da disciplina de programação Imperativa.
-
 Os arquivos estão organizados por exercícios da disciplina, cada uma abordando um tema diferente de lógica e fundamentos da linguagem C.
 
 ### ⟢ Conceitos Aplicados:
