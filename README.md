@@ -30,8 +30,8 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 | Nome           | GitHub | Atividade |
 |----------------|--------|-----------|
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | Cardápio de Frutas |
-| Lucas Dinnies  | [@LRDinnies](https://github.com/LRDinnies) | Cardápio de Frutas |
+| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | [menu.c](./menu.c) |
+| Lucas Dinnies  | [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) |
 
 
 ### ⟢ Desenvolvidos individualmente:
