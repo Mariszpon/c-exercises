@@ -25,6 +25,8 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
+Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
+
 ### ⟢ Desenvolvidos em grupo:
 
 | Nome       | Github | Atividade |
