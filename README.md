@@ -27,11 +27,12 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ### ⟢ Desenvolvidos em grupo:
 - [menu.c](./menu.c)
-- 
+
 | Nome | GitHub |
 |---|---|
 | Lucas Dinnies | [@LRDinnies](https://github.com/LRDinnies) |
 | Mariana Pondé | [@Mariszpon](https://github.com/Mariszpon) |
+
 \n
 ### ⟢ Desenvolvidos individualmente:
 
