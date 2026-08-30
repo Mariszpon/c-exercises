@@ -34,6 +34,10 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 
 ### ⟢ Desenvolvidos individualmente:
+| Nome           | GitHub | Atividade |
+|----------------|--------|-----------|
+| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | Em desenvolvimento. 🚧 |
+| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | Em desenvolvimento. 🚧 |
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
