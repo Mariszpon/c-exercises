@@ -25,8 +25,13 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
-- [Exercício: Cardápio de Frutas](./menu.c)  
-  👥 Desenvolvido em grupo com Mariana Pondé e Lucas Dinnies
+- [menu.c](./menu.c)  
+Desenvolvido em grupo:
+| Nome | GitHub |
+|---|---|
+| Lucas Dinnies | [@LRDinnies](https://github.com/LRDinnies) |
+| Mariana Pondé | [@Mariszpon](https://github.com/Mariszpon) |
+
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
