@@ -27,23 +27,9 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ### ⟢ Desenvolvidos em grupo:
 
-| Atividade       | Tipo  | Participantes |
+| Atividade       | Nome  | Github |
 |-----------------|-------|---------------|
-| [menu.c](./menu.c) | 👥 Grupo | Mariana Pondé, [@Mariszpon](https://github.com/Mariszpon) <br> Lucas Dinnies, [@LRDinnies](https://github.com/LRDinnies) |
-| [sorvete.c](./sorvete.c) | ✍️ Individual | Mariana Pondé, [@Mariszpon](https://github.com/Mariszpon) |
-
-
-| Nome           | GitHub | Atividade | Tipo |
-|----------------|--------|-----------|------|
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | [menu.c](./menu.c) | 👥 Grupo |
-| Lucas Dinnies  | [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) | 👥 Grupo |
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | [sorvete.c](./sorvete.c) | ✍️ Individual |
-
-| Nome           | GitHub | Atividade |
-|----------------|--------|-----------|
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | [menu.c](./menu.c) |
-| Lucas Dinnies  | [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) |
-
+| [menu.c](./menu.c) | Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) |
 
 ### ⟢ Desenvolvidos individualmente:
 | Nome           | GitHub | Atividade |
