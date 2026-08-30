@@ -33,7 +33,6 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 | Lucas Dinnies | [@LRDinnies](https://github.com/LRDinnies) |
 | Mariana Pondé | [@Mariszpon](https://github.com/Mariszpon) |
 
-<br>
 
 ### ⟢ Desenvolvidos individualmente:
 
