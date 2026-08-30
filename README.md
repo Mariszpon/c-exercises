@@ -21,14 +21,14 @@ Ele reúne exercícios acadêmicos em **C** desenvolvidos como parte da discipli
 Os arquivos estão organizados por exercícios da disciplina, cada uma abordando um tema diferente de lógica e fundamentos da linguagem C.
 
 ### ⟢ Conceitos Aplicados:
-- Função principal main() como ponto de entrada
-- Uso de printf para saída formatada
-- Uso de scanf para entrada de dados com & (endereço de memória)
-- Especificadores de formato (%d, %lld) para leitura e escrita de diferentes tipos
-- Declaração de variáveis (int, long long)
-- Matrizes bidimensionais int G[N][M] para armazenar dados tabulares
-- Laços for aninhados para percorrer linhas e colunas
-- Estrutura condicional if para atualização do valor máximo
+- Função principal `main()` como ponto de entrada
+- Uso de `printf` para saída formatada
+- Uso de `scanf` para entrada de dados com `&` (endereço de memória)
+- Especificadores de formato (`%d`, `%lld`) para leitura e escrita de diferentes tipos
+- Declaração de variáveis (`int`, `long long`)
+- Matrizes bidimensionais `int G[N][M]` para armazenar dados tabulares
+- Laços `for` aninhados para percorrer linhas e colunas
+- Estrutura condicional `if` para atualização do valor máximo
 - Cálculo de máximo por turma e soma acumulada em total
 - Organização do código em blocos lógicos com comentários explicativos
 
