@@ -27,6 +27,7 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 - [menu.c](./menu.c)  
 Desenvolvido em grupo:
+
 | Nome | GitHub |
 |---|---|
 | Lucas Dinnies | [@LRDinnies](https://github.com/LRDinnies) |
