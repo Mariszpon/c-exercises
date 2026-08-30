@@ -25,8 +25,8 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
-- Exercício 1: Estruturas básicas (`printf`, `scanf`)  
-  🔹 Desenvolvido individualmente
+- [Exercício: Cardápio de Frutas](./menu.c)  
+  👥 Desenvolvido em grupo com Mariana Pondé e Lucas Dinnies
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
