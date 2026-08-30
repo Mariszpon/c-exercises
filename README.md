@@ -33,12 +33,6 @@ Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
 |-----------------|-------|---------------|
 | Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) |
 
-### ⟢ Desenvolvidos individualmente:
-| Nome           | GitHub | Atividade |
-|----------------|--------|-----------|
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | Em desenvolvimento. 🚧 |
-| Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | Em desenvolvimento. 🚧 |
-
 ## ♯ Objetivo: <a id="objetivo"></a>
 
 Este repositório tem como objetivo guardar minhas práticas de conceitos fundamentais de programação em **C**, documentando meu progresso acadêmico ao longo da graduação.
