@@ -27,6 +27,12 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ### ⟢ Desenvolvidos em grupo:
 
+| Atividade       | Tipo  | Participantes |
+|-----------------|-------|---------------|
+| [menu.c](./menu.c) | 👥 Grupo | Mariana Pondé, [@Mariszpon](https://github.com/Mariszpon) <br> Lucas Dinnies, [@LRDinnies](https://github.com/LRDinnies) |
+| [sorvete.c](./sorvete.c) | ✍️ Individual | Mariana Pondé, [@Mariszpon](https://github.com/Mariszpon) |
+
+
 | Nome           | GitHub | Atividade | Tipo |
 |----------------|--------|-----------|------|
 | Mariana Pondé  | [@Mariszpon](https://github.com/Mariszpon) | [menu.c](./menu.c) | 👥 Grupo |
