@@ -7,6 +7,7 @@
 </p>
 <p>
   <a href="#introducao">Introdução</a> •
+  <a href="#organizaca0">Organização dos Exercícios</a> •
   <a href="#objetivo">Objetivo</a> •
   <a href="#notaspessoais">Notas Pessoais</a> •
     <a href="#finalizacao">Finalização</a>
@@ -21,6 +22,8 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 ### ⟢ Conceitos Aplicados:
 - Em desenvolvimento. 🚧
+
+## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
