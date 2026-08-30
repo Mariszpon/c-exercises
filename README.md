@@ -26,7 +26,6 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
 ### ⟢ Desenvolvidos em grupo:
-- [menu.c](./menu.c)
 
 | Nome           | GitHub | Atividade |
 |----------------|--------|-----------|
