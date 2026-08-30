@@ -27,8 +27,6 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 
 Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
 
-### ⟢ Desenvolvidos em grupo:
-
 | Nome       | Github | Atividade |
 |-----------------|-------|---------------|
 | Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) |
