@@ -21,19 +21,19 @@ Ele reúne exercícios acadêmicos em **C** desenvolvidos como parte da discipli
 Os arquivos estão organizados por exercícios da disciplina, cada uma abordando um tema diferente de lógica e fundamentos da linguagem C.
 
 ### ⟢ Conceitos Aplicados:
-* Função principal ´main()´ como ponto de entrada  
-* Uso de printf para saída formatada  
-* Uso de scanf para entrada de dados com & (endereço de memória)  
-* Especificadores de formato (%d, %f) para leitura e escrita de diferentes tipos  
-* Declaração de variáveis (int, float, bool)  
-* Estrutura typedef struct para agrupar dados de cada estudante  
-* Constante definida com #define para capacidade máxima do vetor  
-* Vetor de estruturas (Estudante estudantes[MAX_ESTUDANTES]) para armazenar dados tabulares  
-* Laços for para percorrer o vetor de estudantes  
-* Estrutura condicional if para verificar aprovação (nota ≥ 7)  
-* Organização modular do código em múltiplos arquivos .c e .h  
-* Uso de headers (.h) para declarar funções e compartilhar definições entre arquivos  
-* Inclusão de cabeçalhos com #include "arquivo.h" para conectar módulos  
+* Função principal `main()` como ponto de entrada  
+* Uso de `printf` para saída formatada  
+* Uso de `scanf` para entrada de dados com `&` (endereço de memória)  
+* Especificadores de formato (`%d`, `%f`) para leitura e escrita de diferentes tipos  
+* Declaração de variáveis (`int`, `float`, `bool`)  
+* Estrutura `typedef struct` para agrupar dados de cada estudante  
+* Constante definida com `#define` para capacidade máxima do vetor  
+* Vetor de estruturas `(Estudante estudantes[MAX_ESTUDANTES])` para armazenar dados tabulares  
+* Laços `for` para percorrer o vetor de estudantes  
+* Estrutura condicional `if` para verificar aprovação (nota ≥ 7)  
+* Organização modular do código em múltiplos arquivos `.c` e `.h`  
+* Uso de headers (`.h`) para declarar funções e compartilhar definições entre arquivos  
+* Inclusão de cabeçalhos com `#include "arquivo.h"` para conectar módulos  
 * Separação de responsabilidades: leitura, classificação, relatório e função principal
 
 
