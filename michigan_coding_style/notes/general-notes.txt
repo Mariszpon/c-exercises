@@ -1,26 +1,24 @@
-Tipos de dados
+TIPOS DE DADOS
 double ocupa mais bytes que float, logo reduz erros de arredondamento.
 
 char guarda um único caractere.
 
 char[n] é um array de caracteres (string). Exemplo:
+Exemplo: char nome[50] → guarda até 49 caracteres + \0 (terminador de string).
 
-char nome[50] → guarda até 49 caracteres + \0 (terminador de string).
 
-*Entrada e saída*
+ENTRADA E SAÍDA
 %lf → usado para ler valores do tipo double (se fosse float, usa %f).
 
 %f → imprime tanto float quanto double.
-
 %.2f → imprime número real com 2 casas decimais.
 
 scanf(" %c", &variavel) → espaço antes de %c ignora o enter e o \n.
 
-📌 Strings e acentuação
+
+STRINGS E ACENTUAÇÃO
 fgets(variavel, sizeof(variavel), stdin) → lê até o tamanho máximo do array, incluindo espaços.
-
 Exemplo: char nome[50]; fgets(nome, sizeof(nome), stdin);
-
 Aceita nomes compostos, diferente de scanf("%s").
 
 sizeof → garante que o limite do array seja respeitado.
@@ -28,31 +26,20 @@ sizeof → garante que o limite do array seja respeitado.
 stdin → entrada padrão (teclado).
 
 Acentuação em português:
-
-c
 #include <locale.h>
 int main() {
     setlocale(LC_ALL, "Portuguese");
     ...
 }
-📌 Biblioteca matemática (math.h)
+
+
+BIBLIOTECA MATEMÁTICA
 Inclui funções como:
-
 pow(base, expoente) → retorna base^expoente como double.
-
 sqrt(x) → calcula a raiz quadrada.
-
 fabs(x) → valor absoluto.
 
-📌 Notação científica
-1e-6 → representa 
-1
-×
-10
-−
-6
-.
-
+NOTAÇÃO CIENTÍFICA
+1e-6 → representa 1.10^-6.
 O e ou E indica potência de 10.
-
 Exemplo: 1e-6 = 0.000001.
