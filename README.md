@@ -25,12 +25,17 @@ Os arquivos estão organizados por exercícios da disciplina, cada uma abordando
 * Uso de `printf` para saída formatada  
 * Uso de `scanf` para entrada de dados com `&` (endereço de memória)  
 * Especificadores de formato (`%d`, `%f`) para leitura e escrita de diferentes tipos  
-* Declaração de variáveis (`int`, `float`, `bool`)  
-* Estrutura `typedef struct` para agrupar dados de cada estudante  
+* Declaração de variáveis (`int`, `float`, `bool`)
+* Uso de `EPSILON` para comparação de valores em ponto flutuante com tolerância
+* Funções da biblioteca `math.h` (`pow`, `sqrt`, `fabs`)
+* Estrutura `typedef struct` para agrupar dados de cada estudante
 * Constante definida com `#define` para capacidade máxima do vetor  
 * Vetor de estruturas `(Estudante estudantes[MAX_ESTUDANTES])` para armazenar dados tabulares  
-* Laços `for` para percorrer o vetor de estudantes  
-* Estrutura condicional `if` para verificar aprovação (nota ≥ 7)  
+* Laços `for` para percorrer o vetor de estudantes
+* Laço `while` para contagem regressiva
+* Estrutura condicional `if` para verificar aprovação (nota ≥ 7)
+* Uso de `fgets` para leitura de strings com espaços (nomes compostos)
+* Biblioteca `locale.h` e `setlocale(LC_ALL, "Portuguese")` para habilitar acentuação
 * Organização modular do código em múltiplos arquivos `.c` e `.h`  
 * Uso de headers (`.h`) para declarar funções e compartilhar definições entre arquivos  
 * Inclusão de cabeçalhos com `#include "arquivo.h"` para conectar módulos  
@@ -44,6 +49,7 @@ Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
 | Nome       | Github | Atividade |
 |-----------------|-------|---------------|
 | Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu.c](./menu.c) |
+|| Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [michigan_coding_style](./michigan_coding_style) |
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
