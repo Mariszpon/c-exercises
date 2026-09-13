@@ -1,21 +1,24 @@
+/* Program: Character and countdown printer
+   Author: Mariana
+   Date: 13/09/2026
+   Purpose: Print a character multiple times and then print a countdown.
+*/
+
 #include <stdio.h>
 
-// Problemas: variáveis com nomes confundíveis, nomes pouco explicativos e constantes sem significado
-// O padrão recomenda MAX_TIMES ou NUM_REPETITIONS
-// k e _c indicam que a variável é constante e não deve ser modificada (valor fixo, não muda durante a execução do programa)
+#define PRINT_CHARACTER 'H'     // character to be printed
+#define NUM_REPETITIONS 10      // number of times to print the character
 
-int main()
-{
-    const char kLetter_c = 'H';              // letra a ser impressa
-    const int kNumRepetitions_c = 10;        // número de vezes que a letra deve ser impressa
-
-    for (int index = 1; index <= kNumRepetitions_c; index++) // <= é o operador de comparação (Menor ou igual) e index++ incremente 1 a cada repetição
-        putchar(kLetter_c); // putchar imprime um caractere
+int main(void) {
+    // Print the character NUM_REPETITIONS times
+    for (int index = 0; index < NUM_REPETITIONS; index++) {
+        putchar(PRINT_CHARACTER);
+    }
     putchar('\n');
 
-    int current_value = kNumRepetitions_c;   // valor a ser impresso
-    while (current_value > 0) // while depende de condição e o foco está em continuar enuanto a condição for verdadeira
-    {
+    // Print a countdown from NUM_REPETITIONS to 1
+    int current_value = NUM_REPETITIONS;
+    while (current_value > 0) {
         printf("%d ", current_value);
         current_value--;
     }
@@ -23,3 +26,4 @@ int main()
 
     return 0;
 }
+
