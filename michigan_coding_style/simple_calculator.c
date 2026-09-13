@@ -1,36 +1,36 @@
-/* Program: Simple calculator
-   Author: Mariana
-   Date: 13/09/2026
-   Purpose: Read two operands and an operator, then compute the result.
+/* Programa: Calculadora simples
+   Autora: Mariana
+   Data: 13/09/2026
+   Objetivo: Ler dois operandos e um operador, depois calcular o resultado.
 */
 
 #include <stdio.h>
 
 int main(void) {
-    double operand1, operand2;   // Operands for the calculation
-    double result = 0.0;         // Result of the operation
-    char operator;               // Operator (+, -, *, /)
+    double operand1, operand2;   // operandos para o cálculo
+    double result = 0.0;         // resultado da operação
+    char operator;               // operador (+, -, *, /)
 
-    // Input
-    printf("Enter the first operand: ");
+    // Entrada
+    printf("Digite o primeiro operando: ");
     if (scanf("%lf", &operand1) != 1) {
-        printf("Invalid input!\n");
+        printf("Entrada inválida!\n");
         return 1;
     }
 
-    printf("Enter the second operand: ");
+    printf("Digite o segundo operando: ");
     if (scanf("%lf", &operand2) != 1) {
-        printf("Invalid input!\n");
+        printf("Entrada inválida!\n");
         return 1;
     }
 
-    printf("Enter an operator (+, -, *, /): ");
+    printf("Digite um operador (+, -, *, /): ");
     if (scanf(" %c", &operator) != 1) {
-        printf("Invalid operator input!\n");
+        printf("Entrada inválida para operador!\n");
         return 1;
     }
 
-    // Processing
+    // Processamento
     if (operator == '+') {
         result = operand1 + operand2;
     } else if (operator == '-') {
@@ -41,15 +41,15 @@ int main(void) {
         if (operand2 != 0.0) {
             result = operand1 / operand2;
         } else {
-            printf("Error: division by zero!\n");
+            printf("Erro: divisão por zero!\n");
             return 1;
         }
     } else {
-        printf("Error: invalid operator!\n");
+        printf("Erro: operador inválido!\n");
         return 1;
     }
 
-    // Output
-    printf("Result = %.2f\n", result);
+    // Saída
+    printf("Resultado = %.2f\n", result);
     return 0;
 }
