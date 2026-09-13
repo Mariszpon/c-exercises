@@ -1,34 +1,35 @@
-/* Program: Float vs Double comparison
-   Author: Mariana
-   Date: 13/09/2026
-   Purpose: Compare results of division using float and double, 
-            and check equality within a tolerance (epsilon).
+/* Programa: Comparação entre Float e Double
+   Autora: Mariana
+   Data: 13/09/2026
+   Objetivo: Comparar resultados de uma divisão usando float e double,
+             verificando igualdade dentro de uma tolerância (epsilon).
 */
 
 #include <stdio.h>
 #include <math.h>
 
-#define EPSILON 1e-6  // tolerance for floating-point comparison
+#define EPSILON 1e-6  // tolerância para comparação de valores em ponto flutuante
 
 int main(void) {
-    // Operands
-    double numerator = 1234567890.123;
-    double denominator = 12345.123;
+    // Operandos
+    double numerador = 1234567890.123;
+    double denominador = 12345.123;
 
-    // Results
-    float result_float = numerator / denominator;
-    double result_double = numerator / denominator;
+    // Resultados
+    float resultado_float = numerador / denominador;
+    double resultado_double = numerador / denominador;
 
-    // Comparison with tolerance
-    if (fabs(result_float - result_double) < EPSILON) {
-        printf("Values are approximately equal.\n");
+    // Comparação com tolerância
+    if (fabs(resultado_float - resultado_double) < EPSILON) {
+        printf("Valores aproximadamente iguais.\n");
     } else {
-        printf("Values are different.\n");
+        printf("Valores diferentes.\n");
     }
 
-    // Output with controlled precision
-    printf("Result (float)  = %.10f\n", result_float);
-    printf("Result (double) = %.10f\n", result_double);
+    // Impressão com precisão controlada
+    printf("Resultado (float)  = %.10f\n", resultado_float);
+    printf("Resultado (double) = %.10f\n", resultado_double);
 
     return 0;
 }
+
