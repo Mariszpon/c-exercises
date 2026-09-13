@@ -1,52 +1,52 @@
-/* Program: Quadratic equation roots calculator
-   Author: Mariana
-   Date: 13/09/2026
-   Purpose: Read coefficients a, b, c and compute the real roots of a quadratic equation.
+/* Programa: Cálculo das raízes de uma equação quadrática
+   Autora: Mariana
+   Data: 13/09/2026
+   Objetivo: Ler os coeficientes a, b, c e calcular as raízes reais da equação quadrática.
 */
 
 #include <stdio.h>
 #include <math.h>
 
-#define EPSILON 1e-6  // tolerance for floating-point comparison
+#define EPSILON 1e-6  // tolerância para comparação de valores em ponto flutuante
 
 int main(void) {
-    // Coefficients of the quadratic equation ax^2 + bx + c = 0
+    // Coeficientes da equação quadrática ax^2 + bx + c = 0
     double coefficient_a, coefficient_b, coefficient_c;
-    // Discriminant and roots
+    // Discriminante e raízes
     double discriminant, root1, root2;
 
-    // Input
-    printf("Enter coefficient a: ");
+    // Entrada de dados
+    printf("Digite o coeficiente a: ");
     if (scanf("%lf", &coefficient_a) != 1) {
-        printf("Invalid input for a.\n");
+        printf("Entrada inválida para a.\n");
         return 1;
     }
 
-    printf("Enter coefficient b: ");
+    printf("Digite o coeficiente b: ");
     if (scanf("%lf", &coefficient_b) != 1) {
-        printf("Invalid input for b.\n");
+        printf("Entrada inválida para b.\n");
         return 1;
     }
 
-    printf("Enter coefficient c: ");
+    printf("Digite o coeficiente c: ");
     if (scanf("%lf", &coefficient_c) != 1) {
-        printf("Invalid input for c.\n");
+        printf("Entrada inválida para c.\n");
         return 1;
     }
 
-    // Calculate discriminant
+    // Cálculo do discriminante
     discriminant = coefficient_b * coefficient_b - 4 * coefficient_a * coefficient_c;
-    printf("Discriminant: %.2f\n", discriminant);
+    printf("Discriminante: %.2f\n", discriminant);
 
-    // Check roots based on discriminant
+    // Verificação das raízes
     if (discriminant < 0) {
-        printf("No real roots exist.\n");
+        printf("Não existem raízes reais.\n");
     } else if (fabs(discriminant) < EPSILON) {
-        printf("There is one real root:\n");
+        printf("Existe uma raiz real:\n");
         root1 = -coefficient_b / (2 * coefficient_a);
         printf("x = %.4f\n", root1);
     } else {
-        printf("There are two real roots:\n");
+        printf("Existem duas raízes reais:\n");
         double sqrt_discriminant = sqrt(discriminant);
         root1 = (-coefficient_b + sqrt_discriminant) / (2 * coefficient_a);
         root2 = (-coefficient_b - sqrt_discriminant) / (2 * coefficient_a);
