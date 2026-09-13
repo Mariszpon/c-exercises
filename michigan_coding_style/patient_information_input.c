@@ -1,36 +1,36 @@
-/* Program: Patient information input
-   Author: Mariana
-   Date: 13/09/2026
-   Purpose: Read patient's name and age, then display them.
+/* Programa: Entrada de informações do paciente
+   Autora: Mariana
+   Data: 13/09/2026
+   Objetivo: Ler o nome e a idade do paciente e exibir os dados.
 */
 
 #include <stdio.h>
 #include <locale.h>
 
-#define NAME_MAX_LENGTH 50  // maximum length for patient name
+#define NAME_MAX_LENGTH 50  // tamanho máximo para o nome do paciente
 
 int main(void) {
-    setlocale(LC_ALL, "Portuguese"); // enable Portuguese accents
+    setlocale(LC_ALL, "Portuguese"); // habilita acentuação em português
 
-    char patient_name[NAME_MAX_LENGTH]; // patient's name
-    int patient_age = 0;                // patient's age
+    char patient_name[NAME_MAX_LENGTH]; // nome do paciente
+    int patient_age = 0;                // idade do paciente
 
-    // Input: name
-    printf("Enter your name: ");
+    // Entrada: nome
+    printf("Digite o seu nome: ");
     if (fgets(patient_name, sizeof(patient_name), stdin) == NULL) {
-        printf("Error reading name.\n");
+        printf("Erro ao ler o nome.\n");
         return 1;
     }
 
-    // Input: age
-    printf("Enter your age: ");
+    // Entrada: idade
+    printf("Digite a sua idade: ");
     if (scanf("%d", &patient_age) != 1) {
-        printf("Invalid age input.\n");
+        printf("Entrada inválida para idade.\n");
         return 1;
     }
 
-    // Output
-    printf("%s, you are %d years old.\n", patient_name, patient_age);
+    // Saída
+    printf("%s, você tem %d anos.\n", patient_name, patient_age);
 
     return 0;
 }
