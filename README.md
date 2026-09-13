@@ -48,8 +48,7 @@ Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
 
 | Nome       | Github | Atividade |
 |-----------------|-------|---------------|
-| Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu](./menu.c) |
-|Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [michigan_coding_style](./michigan_coding_style) |
+| Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu](./menu.c) <br> [michigan_coding_style](./michigan_coding_style) |
 |Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [block_counting_a](./block_counting_a) |
 |Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [divide_3digits](./divide_3digits) |
 |Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [grades](./grades) |
