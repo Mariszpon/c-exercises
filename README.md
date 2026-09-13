@@ -67,7 +67,7 @@ Em desenvolvimento. 🚧
 
 ### ⟢ Tecnologias Utilizadas:
 [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
-[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=fff)](#)
+[![CLion](https://img.shields.io/badge/CLion-000000?logo=clion&logoColor=white)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 
