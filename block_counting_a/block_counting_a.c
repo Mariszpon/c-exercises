@@ -14,7 +14,7 @@ int main(void) {
     printf("Digite a sequencia: ");
     scanf("%s", s);
 
-    int tamanho_real = strlen(s);
+    int tamanho_real = strlen(s); // analiza tudo q ta na string
 
     if (tamanho_real != n) {
         printf("Erro: o tamanho informado (%d) nao bate com o tamanho da string (%d)\n", n,tamanho_real);
