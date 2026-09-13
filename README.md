@@ -21,26 +21,26 @@ Ele reúne exercícios acadêmicos em **C** desenvolvidos como parte da discipli
 Os arquivos estão organizados por exercícios da disciplina, cada uma abordando um tema diferente de lógica e fundamentos da linguagem C.
 
 ### ⟢ Conceitos Aplicados:
-* Função principal `main()` como ponto de entrada  
-* Uso de `printf` para saída formatada  
-* Uso de `scanf` para entrada de dados com `&` (endereço de memória)  
-* Especificadores de formato (`%d`, `%f`) para leitura e escrita de diferentes tipos  
-* Declaração de variáveis (`int`, `float`, `bool`)
-* Uso de `EPSILON` para comparação de valores em ponto flutuante com tolerância
-* Funções da biblioteca `math.h` (`pow`, `sqrt`, `fabs`)
-* Estrutura `typedef struct` para agrupar dados de cada estudante
-* Constante definida com `#define` para capacidade máxima do vetor  
-* Vetor de estruturas `(Estudante estudantes[MAX_ESTUDANTES])` para armazenar dados tabulares  
-* Laços `for` para percorrer o vetor de estudantes
-* Laço `while` para contagem regressiva
-* Estrutura condicional `if` para verificar aprovação (nota ≥ 7)
-* Uso de `fgets` para leitura de strings com espaços (nomes compostos)
-* Biblioteca `locale.h` e `setlocale(LC_ALL, "Portuguese")` para habilitar acentuação
-* Organização modular do código em múltiplos arquivos `.c` e `.h`  
-* Uso de headers (`.h`) para declarar funções e compartilhar definições entre arquivos  
-* Inclusão de cabeçalhos com `#include "arquivo.h"` para conectar módulos  
+* Função principal `main()` como ponto de entrada
+* Entrada e saída formatada com `scanf` e `printf`
+* Tipos básicos e numéricos (`int`, `float`, `double`, `long`, `char`, `bool`)
+* Especificadores de formato (`%d`, `%f`, `%ld`, `%lld`, `%c`) para leitura e escrita
+* Uso de acumuladores para somar resultados
+* Conversão de caracteres para inteiros (`'0' → valor numérico`)
+* Formatação avançada de saída (largura fixa, casas decimais)
+* Vetores simples e vetores de estruturas para armazenar dados
+* Definição de constantes com `#define`
+* Estruturas (`typedef struct`) para agrupar dados
+* Laços `for` e `while` para percorrer sequências
+* Estruturas condicionais `if` para validação e lógica de decisão
+* Manipulação e análise de strings (`strlen`, `fgets`)
+* Biblioteca `math.h` (`pow`, `sqrt`, `fabs`) para cálculos
+* Comparação de valores em ponto flutuante com tolerância (`EPSILON`)
+* Biblioteca `locale.h` e `setlocale` para habilitar acentuação
+* Organização modular em múltiplos arquivos `.c` e `.h`
+* Uso de headers para declarar funções e compartilhar definições
 * Separação de responsabilidades: leitura, classificação, relatório e função principal
-
+* Uso de códigos de retorno para sinalizar erros
 
 ## ♯ Organização dos Exercícios <a id="organizacao"></a>
 
@@ -50,6 +50,10 @@ Alguns exercícios deste repositório foram desenvolvidos em grupo. São eles:
 |-----------------|-------|---------------|
 | Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [menu](./menu.c) |
 |Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [michigan_coding_style](./michigan_coding_style) |
+|Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [block_counting_a](./block_counting_a) |
+|Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [divide_3digits](./divide_3digits) |
+|Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [grades](./grades) |
+|Mariana Pondé <br> Lucas Dinnies | [@Mariszpon](https://github.com/Mariszpon) <br> [@LRDinnies](https://github.com/LRDinnies) | [schedule_available](./schedule_available) |
 
 ## ♯ Objetivo: <a id="objetivo"></a>
 
